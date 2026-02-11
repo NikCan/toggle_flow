@@ -9,8 +9,11 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between gap-12 mb-16">
           <div className="max-w-sm">
             <div className="flex items-center gap-3 mb-6">
-              <Logo className="w-8 h-8 opacity-70 grayscale" />
-              <span className="text-lg font-bold text-white">ToggleFlow</span>
+              <Logo className="w-8 h-8" />
+              <span className="text-lg tracking-tight text-white flex items-center">
+                <span className="font-bold">Toggle</span>
+                <span className="font-light text-secondary">Flow</span>
+              </span>
             </div>
             <p className="text-sm text-slate-500 leading-relaxed mb-6">
               Built for Engineers by Engineers. We’re on a mission to make feature flag management invisible during the
